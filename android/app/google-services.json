@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057565295350",
+    "project_id": "agri-d38cc",
+    "storage_bucket": "agri-d38cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057565295350:android:7ca2a222fc362b556d62d7",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI1wMTPuD9fGKFMv0lr4c-PVPzGfA4ErY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

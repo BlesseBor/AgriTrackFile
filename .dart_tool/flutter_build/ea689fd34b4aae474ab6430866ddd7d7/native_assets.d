@@ -1,0 +1,1 @@
+ D:\\2nd\ Sem\\198.2\\AgriTrack\\.dart_tool\\flutter_build\\ea689fd34b4aae474ab6430866ddd7d7\\native_assets.yaml: 

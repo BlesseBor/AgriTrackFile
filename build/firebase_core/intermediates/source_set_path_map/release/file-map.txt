@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-0 C:\Users\blesse borromeo\.gradle\caches\transforms-3\1277ff53e6079b80ef2f4ab6184045f2\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.4.2-1 C:\Users\blesse borromeo\.gradle\caches\transforms-3\182367529f60ec5e3adece89533ec494\transformed\jetified-firebase-common-20.4.2\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-2 C:\Users\blesse borromeo\.gradle\caches\transforms-3\9139a35d47cb92d92e346eac308f073e\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-3 C:\Users\blesse borromeo\.gradle\caches\transforms-3\95dcc647499c8268b87aa1dd04a90291\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-4 C:\Users\blesse borromeo\.gradle\caches\transforms-3\e3d5b386d9755800abea745dd3fb8bbc\transformed\jetified-play-services-basement-18.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-5 C:\Users\blesse borromeo\.gradle\caches\transforms-3\f56ae3cb59772b14687bc4b10785fbb9\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-main-6 C:\Users\blesse borromeo\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-2.25.4\android\src\main\res
+io.flutter.plugins.firebase.core.firebase_core-release-7 C:\Users\blesse borromeo\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_core-2.25.4\android\src\release\res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\generated\res\pngs\release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\generated\res\resValues\release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\generated\res\rs\release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 D:\2nd Sem\198.2\AgriTrack\build\firebase_core\intermediates\merged_res\release
