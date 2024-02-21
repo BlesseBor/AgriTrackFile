@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
-import 'JMS.dart';
-import 'JMW.dart';
+
+import 'JLFCT.dart';
 import 'JLFFW.dart';
-import 'JLFS.dart';
-import 'JLFWG.dart';
 import 'JLFM.dart';
 import 'JLFO.dart';
-import 'JLFCT.dart';
+import 'JLFS.dart';
+import 'JLFWG.dart';
+import 'JMS.dart';
+import 'JMW.dart';
 import 'dashboard.dart';
 
 class JadamInputsPage extends StatefulWidget {
@@ -178,7 +179,7 @@ class _JadamInputsPageState extends State<JadamInputsPage> {
               );
             },
             style: ElevatedButton.styleFrom(
-              primary: Colors.orange,
+              backgroundColor: Colors.green[600],
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
               ),
