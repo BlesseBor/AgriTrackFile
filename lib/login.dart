@@ -37,9 +37,9 @@ class _LoginPageState extends State<loginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Colors.green[600],
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Center(
           child: Text(
             'Nice to see you again',
@@ -108,7 +108,7 @@ class _LoginPageState extends State<loginPage> {
                 }
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Color(0xffdea317),
+                backgroundColor: Colors.green[700],
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(6.0),
                 ),
@@ -143,7 +143,7 @@ class _LoginPageState extends State<loginPage> {
               child: Text(
                 isLogin ? "Sign up now" : "Log in instead",
                 style: TextStyle(
-                  color: Color(0xff124eb0),
+                  color: Color.fromARGB(255, 251, 251, 251),
                   fontSize: 12.0,
                 ),
               ),

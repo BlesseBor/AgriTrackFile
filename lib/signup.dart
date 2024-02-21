@@ -58,9 +58,9 @@ class signupPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Colors.green[600],
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Center(
           child: Text('Get Started Now',
               style: TextStyle(
@@ -120,7 +120,7 @@ class signupPage extends StatelessWidget {
             ElevatedButton(
               onPressed: () => createUserWithEmailAndPassword(context),
               style: ElevatedButton.styleFrom(
-                primary: Color(0xffdea317),
+                primary: Colors.green[700],
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(6.0),
                 ),
@@ -149,7 +149,7 @@ class signupPage extends StatelessWidget {
               },
               child: Text("Log in now",
                   style: TextStyle(
-                    color: Color(0xff124eb0),
+                    color: Color.fromARGB(255, 255, 255, 255),
                     fontSize: 12.0,
                   )),
             ),

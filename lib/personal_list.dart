@@ -7,9 +7,9 @@ class PersonalListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Color.fromARGB(255, 248, 248, 248),
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Text('Personal List Page'),
       ),
       body: ListView(
@@ -48,7 +48,7 @@ class PersonalListPage extends StatelessWidget {
           ),
         ],
         selectedItemColor: Colors.black, // Color for the selected icon
-        unselectedItemColor: Colors.grey, // Color for unselected icons
+        unselectedItemColor: Colors.green[700], // Color for unselected icons
         onTap: (int index) {
           // Handle bottom navigation item tap
           switch (index) {
@@ -84,6 +84,7 @@ class PersonalListPage extends StatelessWidget {
       padding: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
         color: Color(0xffffffff),
+        border: Border.all(color: Colors.green, width: 2),
         borderRadius: BorderRadius.circular(10.0),
       ),
       child: Column(
@@ -117,7 +118,7 @@ class PersonalListPage extends StatelessWidget {
               );
             },
             style: ElevatedButton.styleFrom(
-              primary: Colors.orange,
+              backgroundColor: Colors.green[700],
               minimumSize: Size(100, 30),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),

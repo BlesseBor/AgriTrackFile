@@ -5,9 +5,9 @@ class JLFSPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Colors.green[600],
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Text('JMS'),
       ),
       body: SingleChildScrollView(

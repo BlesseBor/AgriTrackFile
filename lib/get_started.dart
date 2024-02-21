@@ -5,9 +5,9 @@ class get_startedPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Color.fromARGB(255, 255, 255, 255),
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Center(child: Text('AgriTrack')), // Added title to the app bar
       ),
       body: Center(
@@ -39,7 +39,7 @@ class get_startedPage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
                 textAlign:
                     TextAlign.center, // Optional: Align text in the center
@@ -53,7 +53,7 @@ class get_startedPage extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 16.0,
                   fontWeight: FontWeight.normal,
-                  color: Colors.white,
+                  color: Colors.black,
                 ),
                 textAlign:
                     TextAlign.center, // Optional: Align text in the center
@@ -69,7 +69,8 @@ class get_startedPage extends StatelessWidget {
                 ); // Add your button click logic here
               },
               style: ElevatedButton.styleFrom(
-                primary: Colors.white, // Set the background color of the button
+                backgroundColor:
+                    Colors.green[600], // Set the background color of the button
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(
                       80.0), // Set the button border radius
@@ -78,7 +79,7 @@ class get_startedPage extends StatelessWidget {
               ),
               child: Text("Get Started",
                   style: TextStyle(
-                    color: Color(0xff060606),
+                    color: Colors.white,
                     fontSize: 20.0,
                   )),
             ),

@@ -21,9 +21,9 @@ class dashboardPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
         title: Text('Dashboard'),
         actions: [
           IconButton(
@@ -76,7 +76,7 @@ class dashboardPage extends StatelessWidget {
           ),
         ],
         selectedItemColor: Colors.black,
-        unselectedItemColor: Colors.grey,
+        unselectedItemColor: Colors.green[700],
         onTap: (int index) {
           switch (index) {
             case 0:
@@ -103,7 +103,8 @@ class dashboardPage extends StatelessWidget {
       margin: EdgeInsets.all(10.0),
       padding: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
-        color: Color(0xffffffff),
+        color: Colors.white,
+        border: Border.all(color: Colors.green, width: 2),
         borderRadius: BorderRadius.circular(10.0),
       ),
       child: Column(
@@ -123,7 +124,7 @@ class dashboardPage extends StatelessWidget {
             description,
             style: TextStyle(
               fontSize: 16.0,
-              color: Colors.black54,
+              color: Colors.black,
             ),
             textAlign: TextAlign.center,
           ),
@@ -136,7 +137,7 @@ class dashboardPage extends StatelessWidget {
               );
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.orange,
+              backgroundColor: Colors.green[700],
               minimumSize: Size(100, 30),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),
@@ -158,7 +159,8 @@ class dashboardPage extends StatelessWidget {
       margin: EdgeInsets.all(10.0),
       padding: EdgeInsets.all(15.0),
       decoration: BoxDecoration(
-        color: Color(0xffffffff),
+        color: Colors.white,
+        border: Border.all(color: Colors.green, width: 2),
         borderRadius: BorderRadius.circular(10.0),
       ),
       child: Column(
@@ -170,7 +172,7 @@ class dashboardPage extends StatelessWidget {
             style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.bold,
-              color: Colors.black,
+              color: Color.fromARGB(255, 0, 0, 0),
             ),
           ),
           SizedBox(height: 5.0),
@@ -178,7 +180,7 @@ class dashboardPage extends StatelessWidget {
             'View and edit your profile information.',
             style: TextStyle(
               fontSize: 16.0,
-              color: Colors.black54,
+              color: Color.fromARGB(255, 0, 0, 0),
             ),
             textAlign: TextAlign.center,
           ),
@@ -191,7 +193,7 @@ class dashboardPage extends StatelessWidget {
               );
             },
             style: ElevatedButton.styleFrom(
-              backgroundColor: Colors.orange,
+              backgroundColor: Colors.green[700],
               minimumSize: Size(100, 30),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20.0),

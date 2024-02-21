@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Agritrack',
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.green,
       ),
       home: const WidgetTree(),
     );
@@ -39,7 +39,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffd8ad0d),
+      backgroundColor: Color.fromARGB(255, 251, 251, 251),
       body: GestureDetector(
         onTap: () {
           // Navigate to the second page

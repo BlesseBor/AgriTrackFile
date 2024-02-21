@@ -10,7 +10,7 @@ class ProfilePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Profile'),
-        backgroundColor: Color(0xffd8ad0d),
+        backgroundColor: Colors.green[600],
       ),
       body: Center(
         child: Container(
@@ -23,7 +23,7 @@ class ProfilePage extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(60.0),
                 child: Container(
-                  height: 120,
+                  height: 100,
                   width: 120,
                   child: CircleAvatar(
                       //backgroundImage: AssetImage('assets/profile_image.jpg'),
@@ -33,14 +33,13 @@ class ProfilePage extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
-                  color: Color(0xffd8ad0d),
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(20.0),
                 ),
                 child: Center(
-                  child: Text(
-                    'User Name',
-                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                  ),
+                  child: Text('User Name',
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                 ),
               ),
               buildProfileOption(context, 'Tracker', () {
@@ -91,12 +90,16 @@ class ProfilePage extends StatelessWidget {
     return Container(
       margin: EdgeInsets.all(20.0),
       decoration: BoxDecoration(
-        color: Color(0xffd8ad0d),
+        color: Colors.green[600],
         borderRadius: BorderRadius.circular(20.0),
       ),
       child: ListTile(
         title: Center(
-          child: Text(label),
+          child: Text(label,
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold)),
         ),
         onTap: onTap,
       ),
